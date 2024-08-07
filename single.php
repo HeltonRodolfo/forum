@@ -2,6 +2,7 @@
 <?php require "config/config.php"; ?>
 <?php
 
+
 if (isset($_POST['submit'])) {
   if (empty($_POST['author_name']) or empty($_POST['replay'])) {
     echo "<script>alert('One or more inputs are empty!');</script>";
